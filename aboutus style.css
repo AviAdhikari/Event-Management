@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+
+:root{
+    --main-color:#3867d6;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 80%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #444;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+body{
+    background-color:#222;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.heading h1{
+    font-size: 4rem;
+    color:#fff;
+    text-transform: uppercase;
+    }
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+.about-content{
+    text-align: center;
+    padding-top: .5rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+
+}
+.about-content p{
+    color: #fff;
+    /* text-align: center;
+    color:rgb(158, 125, 125);
+    margin-top:10px;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width:600px;
+    margin-left :450px;
+    margin-bottom: 10px;*/
+} 
+
+.read-more{
+    color:#fff;
+    text-transform: capitalize;
+}
+.read-more:hover{
+    color: var(--main-color);
+    text-transform: uppercase;
+
+}
+.footer h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.footer h1 span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.container-teams{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+    gap: 1.5rem;
+}
+
+.container-teams .teams{
+    border-radius: .5rem;
+    background: #333;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+.container-teams .teams h3{
+    text-align: left;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+.container-teams .teams p{
+    font-size: 1rem;
+    text-align: left;
+    color: #eee;
+    line-height: 1.8;
+    justify-content: auto;
+
+}
+
+.container-teams .teams .social-links{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    font-size: 2.rem;
+    background: var(--main-color);
+    color: #fff;
+    
+    
+}
+
+
+
+/* .teams{
+    /* height:400px;
+    width:200px;
+    text-align: center;
+    border:2px solid white;
+    background-color: rgb(206, 183, 140);
+    border-radius: 15px; */
+/* .container-teams{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+/* .name{ */
+    /* margin-bottom:20px;
+    font-size: 25px;
+    color:rgb(45, 44, 44);
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* background-color: rgb(206, 183, 140); */
+/* } */
+/* .about{
+    text-align: left;
+    margin-left:5px;
+    color:rgb(75, 65, 37);
+    margin-bottom: 20px;
+    background-color: rgb(206, 183, 140); 
+} */
+/* .social-links{
+    color:cornsilk;
+    background-color:  rgb(206, 183, 140); 
+   
+}
+.social-links a{
+    color:black;
+}
+.n1{
+    margin-right: 5px;
+   
+
+} */
+.pic{
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    margin:10px 10px 10px 25px;
+    border-radius: 15px;
+    background-image: url("subash.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.pict{
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    margin:10px 10px 10px 25px;
+    background-image: url("piya.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+.pictu{
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    margin:10px 10px 10px 25px;
+    border-radius: 15px;
+    background-image: url("rishav.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
