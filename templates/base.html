@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {%block title%}{%endblock title%} | Events Management</title>
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css">
+
+    <!-- custom css file link for inherited pages -->
+    {% block additional_css %}{% endblock %}
+
+    <script src="/static/js/base.js" defer></script>
+
+</head>
+<body>
+
+    <!-- header seaction starts-->
+    <header class ="header">
+        <a href ="index.html" class="logo"><span>Event</span>Managements</a>
+        
+        <nav class ="navbar">
+            <a href ="#home">Home</a>
+            <a href ="aboutus.html">About</a>
+            <a href ="#Service">Service</a>
+            <a href ="#Gallery">Gallery</a>
+            <a href ="#Contact">Contact</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    {% block body %}
+    {% endblock body %}
+   
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- costom js files link  -->
+<script src="/static/js/indexscript.js" defer></script>
+
+</body>
+</html>

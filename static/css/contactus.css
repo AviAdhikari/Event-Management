@@ -1,0 +1,94 @@
+/* CSS code for styling the contact us page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    background-color: peachpuff;
+  }
+  
+  .left {
+    flex: 1;
+    position: relative;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+  
+  .right {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: darkslategray;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid darkslategray;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: darkslategray;
+    color: white;
+    cursor: pointer;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: darkslategray;
+    margin-bottom: 10px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social a {
+    margin-left: 10px;
+  }
+  
+  .social img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left {
+      height: 50%;
+    }
+  
+    .right {
+      height: 50%;
+    }
+  }
+  
